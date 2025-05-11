@@ -1,0 +1,344 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  src: url(fonts/Aclonica-Regular.ttf);
+  font-family: aclonica;
+}
+@font-face {
+  src: url(fonts/WinkySans-VariableFont_wght.ttf);
+  font-family: winky-sans;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 90vw;
+  height: auto;
+  margin: 0 auto;
+  border: 3px black solid;
+  font-family: sans-serif;
+  border: none;
+  font-family: winky-sans;
+}
+.sec1 {
+  display: flex;
+  align-items: center;
+  margin-left: 4%;
+  /* width: 60%; */
+}
+.coffee-logo img {
+  max-width: 20rem;
+  height: auto;
+  transform: translateY(-2.5rem);
+}
+.second-bg img {
+  /* width: 40%; */
+  height: auto;
+  /* border: 3px solid black; */
+  object-fit: contain;
+  margin-top: 1.5rem;
+}
+#navbar a {
+  font-size: 1.4rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+#navbar li {
+  list-style: none;
+}
+#navbar li:hover {
+  background-color: rgb(143, 115, 96);
+  /* background-color: white; */
+  height: 3rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#navbar a:active {
+  background-color: white;
+  color: rgba(111, 67, 56, 255);
+}
+#navbar ul {
+  display: flex;
+  width: 60rem;
+  justify-content: center;
+  gap: 4rem;
+  border-radius: 5px;
+  background-color: rgba(111, 67, 56, 255);
+  height: 4rem;
+  text-align: center;
+  align-items: center;
+  transform: translateY(-2.5rem);
+}
+/* .secA {
+  transform: translateY(-1rem);
+} */
+.header-texts h1 {
+  font-size: 3.5rem;
+  word-spacing: 2px;
+  font-weight: 700;
+}
+.header-texts p {
+  font-size: 1.4rem;
+  word-spacing: 2px;
+  font-weight: 400;
+  font-style: italic;
+}
+.header-texts {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  color: white;
+  align-items: center;
+  transform: translatey(-8rem);
+  font-family: aclonica;
+}
+.first-container {
+  max-height: 55vh;
+  background-color: rgba(48, 31, 21, 255);
+}
+.discover-section {
+  width: 100%;
+  height: auto;
+  min-height: 30rem;
+  display: flex;
+  background-color: rgba(219, 188, 160, 255);
+}
+.discover-section img {
+  width: 30%;
+  height: 25rem;
+  border-radius: 10px;
+}
+.discover-container {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  gap: 10%;
+  margin-left: 10%;
+  /* border: 2px solid black; */
+}
+.discover-texts {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 2.5rem;
+}
+.discover-texts h2 {
+  font-size: 3rem;
+  word-spacing: 2px;
+  font-weight: 800;
+  text-transform: capitalize;
+  color: rgba(48, 31, 21, 255);
+}
+.discover-texts h4 {
+  font-size: 2rem;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: rgba(48, 31, 21, 255);
+}
+.discover-texts .headers {
+  display: flex;
+  flex-direction: column;
+  gap: -1rem;
+}
+.discover-texts p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  word-spacing: 1px;
+  line-height: 15px;
+}
+.discover-texts .paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.readmore-btn {
+  width: 40%;
+  height: 3rem;
+  background-color: rgba(48, 31, 21, 255);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+}
+.review-section {
+  width: 100%;
+  height: auto;
+  min-height: 30rem;
+  /* display: flex; */
+  background-color: rgba(101, 85, 70, 255);
+  display: flex;
+  flex-direction: column;
+}
+.review-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-spacing: 2px;
+  color: white;
+}
+.review-texts h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.review-texts p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.review-containers {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.item1,
+.item2,
+.item3 {
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  word-spacing: 3px;
+  font-weight: 400;
+  background-color: rgba(219, 188, 160, 255);
+  border-radius: 10px;
+  border: none;
+  box-shadow: 15px 5px 30px rgb(36, 34, 34);
+}
+.review-containers a {
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(30, 30, 117);
+}
+.review-items {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 3rem auto;
+}
+.contact-section {
+  width: 100%;
+  height: auto;
+  background-color: rgba(48, 31, 21, 255);
+}
+.contact-container {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.5fr;
+  gap: 4rem;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+.contact-form h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  word-spacing: 2px;
+}
+.contact-form p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  /* margin-top: 1.7rem; */
+}
+.contact-form .form-names {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contact-form .full-name {
+  height: 3rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+.contact-form .email {
+  height: 3rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+.form-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.form-actions .comment {
+  height: 6rem;
+  padding-top: -10px;
+  font-style: italic;
+  font-size: 1.4rem;
+}
+.form-actions button {
+  width: 60%;
+  height: 3rem;
+  background-color: rgba(219, 188, 160, 255);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.contact-navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.contact-navbar h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  word-spacing: 2px;
+}
+.contact-navbar p {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.contact-navbar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contact-navbar li {
+  font-size: 1.3rem;
+  list-style: none;
+}
+.contact-logos img {
+  max-width: 12rem;
+  height: auto;
+}
+.contact-logos .contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.4rem;
+}
+.contact-logos .contacts a {
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  color: white;
+  font-style: italic;
+}
+footer {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  background-color: rgba(219, 188, 160, 255);
+}
