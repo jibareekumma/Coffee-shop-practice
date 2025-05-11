@@ -1,4 +1,4 @@
-My first HTML Project 🔥
+My Coffee Shop Project 🔥
 💫Features
 -Responsive Designing
 -Modern Layout
